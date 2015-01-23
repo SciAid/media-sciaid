@@ -1,0 +1,149 @@
+[
+{
+    "fields": {
+        "name": "python",
+        "desc": "\u52a8\u6001\u7684\u811a\u672c\u8bed\u8a00, \u5728\u6570\u636e\u6316\u6398\u3001\u81ea\u7136\u8bed\u8a00\u5904\u7406\u3001\u79d1\u5b66\u8ba1\u7b97\u3001web \u5f00\u53d1\u7b49\u9886\u57df\u5e94\u7528\u5e7f\u6cdb\u3002"
+    },
+    "model": "bookhub.category",
+    "pk": 1
+},
+{
+    "fields": {
+        "category": 1,
+        "booktitle": "django book",
+        "desc": "The Definitive Guide to Django.\r\n\r\nThe first half of this book explains in depth how to build web applications using Django including the basics of dynamic web pages, the Django templating system interacting with databases, and web forms.\r\n\r\nThe second half of this book discusses higher-level concepts such as caching, security, and how to deploy Django.\r\n\r\nThe appendixes form a reference for the commands and configurations available in Django."
+    },
+    "model": "bookhub.bookinfo",
+    "pk": 1
+},
+{
+    "fields": {
+        "chap_no": 4,
+        "book": 1,
+        "chap_name": "Templates",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 1
+},
+{
+    "fields": {
+        "chap_no": 5,
+        "book": 1,
+        "chap_name": "Models",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 2
+},
+{
+    "fields": {
+        "chap_no": 6,
+        "book": 1,
+        "chap_name": "The Django Admin Site",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 3
+},
+{
+    "fields": {
+        "chap_no": 10,
+        "book": 1,
+        "chap_name": "Advanced Models",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 4
+},
+{
+    "fields": {
+        "chap_no": 11,
+        "book": 1,
+        "chap_name": "Generic Views",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 5
+},
+{
+    "fields": {
+        "chap_no": 12,
+        "book": 1,
+        "chap_name": "Deploying Django",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 6
+},
+{
+    "fields": {
+        "chap_no": 16,
+        "book": 1,
+        "chap_name": "django.contrib",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 7
+},
+{
+    "fields": {
+        "chap_no": 7,
+        "book": 1,
+        "chap_name": "Forms",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 8
+},
+{
+    "fields": {
+        "chap_no": 8,
+        "book": 1,
+        "chap_name": "Advanced Views and URLconfs",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 9
+},
+{
+    "fields": {
+        "chap_no": 9,
+        "book": 1,
+        "chap_name": "Advanced Templates",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 10
+},
+{
+    "fields": {
+        "chap_no": 13,
+        "book": 1,
+        "chap_name": "Generating Non-HTML Content",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 11
+},
+{
+    "fields": {
+        "chap_no": 14,
+        "book": 1,
+        "chap_name": "Sessions, Users, and Registration",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 12
+},
+{
+    "fields": {
+        "chap_no": 15,
+        "book": 1,
+        "chap_name": "Caching",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 13
+}
+]
